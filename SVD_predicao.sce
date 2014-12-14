@@ -13,7 +13,7 @@ for (i=1:n)
     end
 end
 
-[U S V]= svd(R)
+[U S V]= svd(Rnorm)
 
 Sk=zeros(k,k)
 for (i=1:k)
